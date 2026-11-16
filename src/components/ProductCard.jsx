@@ -5,8 +5,10 @@ import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import LikeButton from './LikeButton';
 
-export default function ProductCard({ name, text, price, image }) {
+export default function ProductCard({ id, name, text, price, image }) {
+
   const [count, setCount] = useState(0);
 
   return (
@@ -22,6 +24,9 @@ export default function ProductCard({ name, text, price, image }) {
           カートに入れる
         </Button>
         <Typography>{count}個　{price * count}円</Typography>
+      </CardActions>
+      <CardActions>
+<LikeButton id={id} />
       </CardActions>
     </Card>
   );
