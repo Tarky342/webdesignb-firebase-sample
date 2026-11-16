@@ -1,7 +1,8 @@
 # webdesignb-firebase-sample
 
-WebデザインB（第7回）の練習用アプリ「ふしぎ菓子店」です。
+WebデザインB（第7回）の練習用アプリ「ふしぎ菓子店」のブランチ
 第6回の完成形（props・products.json・state）から始めて、Firebase の Firestore をつなぎます。
+
 
 ## 開き方
 
